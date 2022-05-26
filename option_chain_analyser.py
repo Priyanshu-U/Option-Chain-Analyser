@@ -49,6 +49,6 @@ maxCE = df['CEstrikePrice'][df['CEopenInterest'].idxmax()]
 
 expiry = df["PEexpiryDate"][1]
 
-print(f"The Nifty50 Index is estimated to close between {maxPE} and {maxCE} this expiry on {expiry}")
+print(f"The Nifty50 Index is estimated to close between {maxPE} and {maxCE} this expiry on {expiry} ")
 print(f"The Strongest resistance is {maxCE}")
 print(f"The Strongest support is {maxPE}")
